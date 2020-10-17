@@ -1,0 +1,46 @@
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #eee;
+    font-family: 'Amatic SC', cursive;
+font-family: 'Piazzolla', serif;
+}
+
+th, td {
+    padding: 5px 10px;
+    color: #ffffff; 
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: center;
+}
+
+/*th {
+    background-color: rgb(54,150, 150);
+}
+td {
+    background-color: rgb(91, 116, 107);
+}
+*/
+td:hover {
+    background-color: darkslategray;
+    font-size: 20px;;
+}
+th:hover{
+    background-color: deeppink;
+    
+}
+
+/* tr:first-child{
+    background-color: lavenderblush;
+} */
+
+tr:last-child {
+background-color: lightsteelblue;
+}
+
+
+tr:nth-child(odd) {
+   background-color: lightpink;
+}
