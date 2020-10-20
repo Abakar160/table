@@ -25,7 +25,7 @@ td {
 */
 td:hover {
     background-color: darkslategray;
-    font-size: 20px;;
+    font-size: 30px;;
 }
 th:hover{
     background-color: deeppink;
